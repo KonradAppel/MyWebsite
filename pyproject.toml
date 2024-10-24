@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mywebsite"
+version = "0.1.0"
+description = ""
+authors = ["KonradAppel <kon2000@hotmail.de>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.39.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
