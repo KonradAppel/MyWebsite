@@ -8,7 +8,8 @@ def app():
     st.write("Welcome to my travel blog!")
     
     # Lade die .env Datei
-    load_dotenv()
+    if os.path.exists('.env'):
+        load_dotenv()
 
     # Greife auf die Umgebungsvariablen zu
 
